@@ -14,11 +14,15 @@ body {
     background-color: white;
 }
 
-.siliconValley {
+.suburban {
     width: 50%;
     height:50%;
 }
 
+.urban {
+    width: 50%;
+    height: 50%;
+}
 #caption {
     font-size: 20px;
 }

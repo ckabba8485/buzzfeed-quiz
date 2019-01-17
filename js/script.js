@@ -54,10 +54,10 @@ $(document).ready(function() {
         var q3Num = q3Score(q3Result);
         var totalScore = q1Num + q2Num + q3Num;
        
-    if (totalScore > 4) {
-        alert ("You are an Urban person!");
+    if (totalScore === 4) {
+        alert (name + "," + " you are an Urban person!")
     } else (
-        alert ("You are a Suburban person!")
+        alert (name + "," + " you are a Suburban person!")
         )
     
     console.log(totalScore);
