@@ -55,10 +55,11 @@ $(document).ready(function() {
         var totalScore = q1Num + q2Num + q3Num;
        
     if (totalScore === 4) {
-        alert (name + "," + " you are an Urban person!")
+        alert (name + "," + " you are an Urban person!");
+        
     } else (
         alert (name + "," + " you are a Suburban person!")
-        )
+        );
     
     console.log(totalScore);
     });
